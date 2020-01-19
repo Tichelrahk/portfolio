@@ -1,3 +1,16 @@
 body {
+  background-color: #a1c6ea;
+}
 
+.container {
+  background-color: white;
+  width: 40vw;
+  padding: 2em;
+}
+
+#header {
+  margin-top: 15vh;
+  margin-bottom: 15vh;
+  color: white;
+  font-weight: 700;
 }
