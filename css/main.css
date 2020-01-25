@@ -5,12 +5,50 @@ body {
 .container {
   background-color: white;
   width: 40vw;
-  padding: 2em;
+  min-width: 350px;
 }
 
 #header {
-  margin-top: 15vh;
-  margin-bottom: 15vh;
-  color: white;
-  font-weight: 700;
+  display: flex;
+  height: 82vh;
+  color: #2a324b;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+#title-name {
+  font-size: 90px;
+}
+
+.dark-top {
+  height: 5vh;
+  background-color: #2a324b;
+}
+
+.arrow-down {
+  height: 18vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #2a324b;
+}
+
+.arrow-down:hover {
+  color: silver;
+}
+
+#learn-more {
+  font-size: 48px;
+  color: inherit;
+}
+
+a {
+  text-decoration: none;
+  outline: 0;
+}
+
+a:hover {
+  text-decoration: none;
 }
