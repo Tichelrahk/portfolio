@@ -1,17 +1,15 @@
 body {
-  background-color: #a1c6ea;
+  background-color: #36423e;
 }
 
-.container {
+.content {
   background-color: white;
-  width: 40vw;
-  min-width: 350px;
 }
 
 #header {
   display: flex;
-  height: 82vh;
-  color: #2a324b;
+  height: 100vh;
+  color: white;
   justify-content: center;
   align-items: center;
   flex-direction: column;
@@ -27,16 +25,21 @@ body {
 }
 
 .arrow-down {
-  height: 18vh;
+  height: 12vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  color: #2a324b;
+  color: white;
 }
 
 .arrow-down:hover {
-  color: silver;
+  color: #36423e;
+}
+
+.header-text {
+  position: relative;
+  bottom: 5vh;
 }
 
 #learn-more {
@@ -44,11 +47,13 @@ body {
   color: inherit;
 }
 
-a {
+a.arrow {
+  position: relative;
+  bottom: 10vh;
   text-decoration: none;
   outline: 0;
 }
 
-a:hover {
+a.arrow :hover {
   text-decoration: none;
 }
