@@ -65,6 +65,7 @@ a.arrow :hover {
   object-fit: contain;
   flex-shrink: 0;
   margin-right: 16px;
+  padding: 10px;
 }
 
 .project-text {
@@ -81,4 +82,8 @@ a.arrow :hover {
 
 .project-list-container {
   margin-bottom: 36px;
+}
+
+.airlumni-pic {
+  box-shadow: 1px 1px 5px silver;
 }
