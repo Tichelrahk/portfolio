@@ -4,6 +4,8 @@ body {
 
 .content {
   background-color: white;
+  margin-bottom: 36px;
+  margin-top: 16px;
 }
 
 #header {
@@ -56,4 +58,27 @@ a.arrow {
 
 a.arrow :hover {
   text-decoration: none;
+}
+
+.project-image {
+  width: 100%;
+  object-fit: contain;
+  flex-shrink: 0;
+  margin-right: 16px;
+}
+
+.project-text {
+}
+
+.project-info-container {
+  display: flex;
+
+}
+
+.project-container {
+  margin-top: 20px;
+}
+
+.project-list-container {
+  margin-bottom: 36px;
 }
